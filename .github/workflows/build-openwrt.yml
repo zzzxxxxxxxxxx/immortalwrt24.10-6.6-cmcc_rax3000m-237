@@ -52,6 +52,9 @@ jobs:
         docker-images: true
         swap-storage: true
 
+    - name: Maximize Build Space
+      uses: easimon/maximize-build-space@master
+
     - name: Initialization environment
       env:
         DEBIAN_FRONTEND: noninteractive
