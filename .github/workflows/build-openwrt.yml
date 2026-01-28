@@ -68,7 +68,6 @@ jobs:
       uses: easimon/maximize-build-space@master
       with:
         build-mount-path: /workdir
-        root-reserve-mb: 8192
 
     - name: Clone source code
       working-directory: /workdir
