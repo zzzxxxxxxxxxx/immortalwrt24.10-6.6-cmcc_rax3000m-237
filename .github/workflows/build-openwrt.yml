@@ -52,9 +52,6 @@ jobs:
         docker-images: true
         swap-storage: true
 
-    - name: Maximize Build Space
-      uses: easimon/maximize-build-space@master
-
     - name: Initialization environment
       env:
         DEBIAN_FRONTEND: noninteractive
@@ -66,6 +63,12 @@ jobs:
         sudo timedatectl set-timezone "$TZ"
         sudo mkdir -p /workdir
         sudo chown $USER:$GROUPS /workdir
+
+    - name: Maximize Build Space
+      uses: easimon/maximize-build-space@master
+      with:
+        build-mount-path: /workdir
+        root-reserve-mb: 8192
 
     - name: Clone source code
       working-directory: /workdir
