@@ -10,4 +10,5 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 
 git clone https://github.com/sirpdboy/luci-app-netspeedtest package/netspeedtest
-git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
+git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
+git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
