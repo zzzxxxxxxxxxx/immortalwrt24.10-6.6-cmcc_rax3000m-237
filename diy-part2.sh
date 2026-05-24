@@ -14,4 +14,4 @@ rm -rf feeds/packages/net/mosdns
 rm -rf feeds/packages/net/v2ray-geodata
 
 rm -rf feeds/packages/lang/golang
-git clone --depth 1 https://github.com/sbwml/packages_lang_golang -b 25.x feeds/packages/lang/golang
+git clone --depth 1 https://github.com/sbwml/packages_lang_golang -b 26.x feeds/packages/lang/golang
