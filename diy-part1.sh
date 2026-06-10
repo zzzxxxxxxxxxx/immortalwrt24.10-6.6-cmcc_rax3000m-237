@@ -11,3 +11,5 @@
 
 git clone --depth 1 https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 git clone --depth 1 https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
+
+echo 'src-git helloworld https://github.com/fw876/helloworld' >> feeds.conf.default
