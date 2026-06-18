@@ -12,6 +12,6 @@
 git clone --depth 1 https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 git clone --depth 1 https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 git clone --depth 1 https://github.com/muink/luci-app-netspeedtest.git package/luci-app-netspeedtest
+git clone --depth 1 https://github.com/yichya/luci-app-xray package/luci-app-xray
 
-# 将 helloworld 源插入 feeds.conf.default 最顶部，确保同名包（如 v2raya）优先使用 helloworld 版本
-sed -i '1i src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
+
